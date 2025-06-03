@@ -1,4 +1,5 @@
 import Header from "../Header"
+import Footer from "../Footer"
 
 export default function PageWrapper({ children, showButton = true, showHeader = true }){
     return (
@@ -7,6 +8,7 @@ export default function PageWrapper({ children, showButton = true, showHeader = 
             <div className="w-full h-full min-h-screen ]">
                 {children}
             </div>
+            <Footer />
         </div>
     )
 }

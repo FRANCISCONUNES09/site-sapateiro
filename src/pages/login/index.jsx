@@ -1,3 +1,4 @@
+import PageWrapper from "@/components/pageWrapper";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -33,7 +34,8 @@ import { useEffect } from "react";
   };
     
     return (
-        <div className="flex min-h-screen bg-[#61a183] font-sans">
+        <PageWrapper>
+          <div className="flex min-h-screen bg-[#61a183] font-sans">
       <div className="w-full md:w-1/2 bg-white px-8 md:px-12 py-16 flex flex-col justify-center shadow-2xl rounded-r-3xl">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
           Acesse sua conta
@@ -73,7 +75,7 @@ import { useEffect } from "react";
           <button
             type="button"
             onClick={handleLogin}
-            className="w-full bg-[#26885a] text-white font-bold py-3 px-4 rounded-xl transition duration-300 shadow-md"
+            className="w-full bg-[red] text-white font-bold py-3 px-4 rounded-xl transition duration-300 shadow-md"
           >
             Entrar
           </button>
@@ -106,7 +108,7 @@ import { useEffect } from "react";
 
       <div className="w-full md:w-1/2 flex items-center justify-center bg-[#61a183] md:bg-transparent">
         <img
-          src="/veterinary-animate.svg"
+          src="/baby-shoes-animate.svg"
           alt="Logo"
           width={390}
           height={390}
@@ -114,5 +116,6 @@ import { useEffect } from "react";
         />
       </div>
     </div>
+        </PageWrapper>
     )
 }

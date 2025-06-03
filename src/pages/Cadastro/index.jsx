@@ -1,6 +1,20 @@
-export default function cadastrar() {
+import PageWrapper from "@/components/pageWrapper";
+import { useRouter } from "next/router";
+
+export default function PageCadastro() {
+  const router = useRouter();
+
+    const tela = () => {
+    router.push("/login");
+  };
+
+  const handleSignup = () => {
+    router.push("/login");
+  };
+
     return (
-        <div className="flex min-h-screen bg-[#61a183] font-sans">
+      <PageWrapper>
+                <div className="flex min-h-screen bg-[white] font-sans">
       <div className="w-full md:w-1/2 bg-white px-8 md:px-12 py-16 flex flex-col justify-center shadow-2xl rounded-r-3xl mx-4 md:mx-0">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
           Crie sua conta
@@ -18,7 +32,7 @@ export default function cadastrar() {
               id="email"
               type="email"
               required
-              className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-800"
+              className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-black"
             />
           </div>
 
@@ -33,7 +47,7 @@ export default function cadastrar() {
               id="password"
               type="password"
               required
-              className="my-3 block w-full px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-800"
+              className="my-3 block w-full px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-black"
             />
             <label
               htmlFor="password"
@@ -45,14 +59,14 @@ export default function cadastrar() {
               id="password"
               type="password"
               required
-              className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-800"
+              className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-black"
             />
           </div>
 
           <button
             type="button"
             onClick={tela}
-            className="w-full bg-[#26885a] text-white font-bold py-3 px-4 rounded-xl transition duration-300 shadow-md"
+            className="w-full bg-[red] text-white font-bold py-3 px-4 rounded-xl transition duration-300 shadow-md"
           >
             Entrar
           </button>
@@ -62,7 +76,7 @@ export default function cadastrar() {
             <button
               type="button"
               onClick={handleSignup}
-              className="text-green-800 hover:underline text-sm font-semibold"
+              className="text-red-600 hover:underline text-sm font-semibold"
             >
               login
             </button>
@@ -80,5 +94,6 @@ export default function cadastrar() {
         />
       </div>
     </div>
+      </PageWrapper>
     )
 }
