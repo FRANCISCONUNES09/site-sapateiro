@@ -29,7 +29,7 @@ export default function Header({showButton = false}){
                 <button
                     onClick={() => window.location.href = "/Cadastro"}
                     className="w-[150px] h-[60%] rounded-md text-white
-                    bg-[#9B87F5] font-bold hover:bg-[#9245EBFF] cursor-pointer">
+                    bg-[#9B87F5] font-bold hover:bg-blue-500 cursor-pointer">
                     Cadastre-se
                 </button>
            )}
