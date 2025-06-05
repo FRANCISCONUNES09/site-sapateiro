@@ -8,13 +8,13 @@ export default function Header({showButton = false}){
                 onClick={() => window.location.href = "/"} 
                 className="flex cursor-pointer h-full gap-2 items-center justify-center pl-2">
                 <GiRunningShoe color="blue" size={30} />
-                <h2 className="font-bold text-[18px] text-white">Sapatos</h2>
+                <h2 className="font-bold text-[18px] text-white">Barão</h2>
             </div>
 
             <button 
-                onClick={() => window.location.href = "/login"} 
+                onClick={() => window.location.href = "/inicio"} 
                 className="text-[14px] text-white">
-                    Login
+                    <p className="text-[14px] text-white">Início</p>
             </button>
 
             <button onClick={() => window.location.href = "/Contatos"}>
@@ -25,14 +25,6 @@ export default function Header({showButton = false}){
                 <p className="text-[14px] text-white">Sobre</p>
             </button>
 
-            {showButton && (
-                <button
-                    onClick={() => window.location.href = "/Cadastro"}
-                    className="w-[150px] h-[60%] rounded-md text-white
-                    bg-[#9B87F5] font-bold hover:bg-blue-500 cursor-pointer">
-                    Cadastre-se
-                </button>
-           )}
         </header>
     )
 }

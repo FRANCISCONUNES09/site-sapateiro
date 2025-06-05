@@ -1,11 +1,11 @@
 import PageWrapper from "@/components/pageWrapper";
 
-export default function Home() {
+export default function Inicio() {
   return (
     <PageWrapper>
       <div className="w-full flex flex-col items-center justify-center pt-7">
         <h1 className="text-[40px] text-[red] font-bold">Barão</h1>
-        <p className="text-[20px] text-[#8a898c]">conserto de calçados.</p>
+        <p className="text-[20px] text-[#8a898c]">Conheça mais sobre nossos serviços!</p>
       </div>
       <div className="filters flex justify-center gap-[16px] wrap mt-[20px]">
         <button 
