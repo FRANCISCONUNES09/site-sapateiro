@@ -7,8 +7,136 @@ export default function Home() {
         <h1 className="text-[40px] text-[red] font-bold">Sapateiro</h1>
         <p className="text-[20px] text-[#8a898c]">conserto de calçados.</p>
       </div>
-      <div className="w-full h-auto flex flex-wrap justify-center gap-2 pt-8">
-        <img src="Imagem do Barão.jpg" alt="" />
+      <div className="filters flex justify-center gap-[16px] wrap mt-[20px]">
+        <button className="bg-transparent border-[2px] border-[red] text-red-600 hover:bg-black cursor-pointer">Solados</button>
+        <button className="bg-transparent border-[2px] border-[red] text-red-600 hover:bg-black cursor-pointer">Saltos</button>
+        <button className="bg-transparent border-[2px] border-[red] text-red-600 hover:bg-black cursor-pointer">Pinturas</button>
+        <button className="bg-transparent border-[2px] border-[red] text-red-600 hover:bg-black cursor-pointer">Palmilhas</button>
+        <button className="bg-transparent border-[2px] border-[red] text-red-600 hover:bg-black cursor-pointer">Virola</button>
+      </div>
+
+      <div className="w-full flex items-center justify-center mt-10">
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex items-center justify-center mt-10">
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex items-center justify-center mt-10">
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
       </div>
     </PageWrapper>
   )
