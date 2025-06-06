@@ -2,7 +2,7 @@ import PageWrapper from "@/components/pageWrapper";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-export default function Contatos() {
+export default function Sobre() {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
 
@@ -25,9 +25,8 @@ export default function Contatos() {
           Sobre o Barão
         </h1>
         <p className="text-gray-700 mb-6">
-          Estamos localizados no Shopping Center Um dentro do estacionamento, lado do Del Passeo, da Aldeota,
-          Fortaleza. Se você tiver dúvidas, sugestões ou quiser fazer parte do
-          nosso projeto, entre em contato pelos canais abaixo:
+          Foi fundado no dia 12 de janeiro de 1975, já são mais de 50 anos no mercado de conserto de calçados. Foi
+          criado com o objetivo de oferecer serviços de alta qualidade e confiança para nossos clientes e atendemos em domicílio.
         </p>
 
         <div className="space-y-4 text-gray-800">
