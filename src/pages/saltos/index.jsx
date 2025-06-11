@@ -39,7 +39,36 @@ export default function Saltos() {
         </button>
       </div>
 
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
+         <div className="card">
+          <img
+            src="https://meiasola.vtexassets.com/arquivos/ids/2256603/sandalia-arezzo-salto-bloco-medio-tourino-leather-caramelo-1.jpg?v=638715102968600000"
+            alt="Sapateiro"
+            className="w-[410px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Sandalia </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              revestimento de saltos, aparação de saltos.
+            </p>
+          </div>
+        </div>
+        
+        <div className="card">
+          <img
+            src="Imagem do Barão.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Barão do Sapato </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"
@@ -47,7 +76,7 @@ export default function Saltos() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -61,14 +90,14 @@ export default function Saltos() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"
@@ -76,36 +105,7 @@ export default function Saltos() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-        
-        <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-full flex items-center justify-center mt-10">
-         <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -118,7 +118,7 @@ export default function Saltos() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>

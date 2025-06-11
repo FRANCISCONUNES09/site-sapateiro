@@ -39,7 +39,37 @@ export default function Palmilhas() {
         </button>
       </div>
 
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
+         <div className="card">
+          <img
+            src="https://m.media-amazon.com/images/I/4195-4bIVOL._AC_.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Palmilha de calcanhar  </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Par Palmilhas Para Sapatos de Salto Alto Almofadas de Calcanhar Autoadesivo Contra Dor e Bolhas (Bege)
+            </p>
+          </div>
+        </div>
+        
+        <div className="card">
+          <img
+            src="https://images.tcdn.com.br/img/img_prod/450883/palmilha_para_sapatilha_tenis_chuteira_eva_plana_pentagol_3170_1_20201213192041.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Palmilha <span className="text-red-500">R$ 20,00</span> </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Nós vedemos a sua palmilha com qualidade e conforto,
+              tanto para masculino quanto feminino. Tem couro e normal.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"
@@ -68,36 +98,7 @@ export default function Palmilhas() {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-10">
-         <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-        
-        <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"

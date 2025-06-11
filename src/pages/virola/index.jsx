@@ -39,7 +39,38 @@ export default function Virola() {
         </button>
       </div>
 
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
+         <div className="card">
+          <img
+            src="https://solart.com.br/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/t/a/taco_meia_lua_sapataria_tam_3_-_foto_1_preto.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Virola preta  </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Nós colocamos na hora,
+              conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        
+        <div className="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNqHllIg5EstJp9FOodlZnNE6bE4ZpNwTFg&s"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[105px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Virola bege  </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Nós colocamos na hora,
+              conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"
@@ -47,7 +78,7 @@ export default function Virola() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -61,14 +92,14 @@ export default function Virola() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"
@@ -76,7 +107,7 @@ export default function Virola() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -90,36 +121,7 @@ export default function Virola() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-full flex items-center justify-center mt-10">
-         <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-        
-        <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>

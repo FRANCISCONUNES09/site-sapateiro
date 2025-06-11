@@ -1,6 +1,7 @@
 import PageWrapper from "@/components/pageWrapper";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contatos() {
   const router = useRouter();
@@ -31,9 +32,10 @@ export default function Contatos() {
         </p>
 
         <div className="space-y-4 text-gray-800">
-          <p>
-            <strong>Telefone:</strong> (85) 91234-5678
-          </p>
+          <div className="flex items-center gap-2">
+            <strong>Telefone:</strong>  (85) 3082-5305 / 
+             <FaWhatsapp className="bg-green-500 justify-center" /> (85) 98741-5034
+          </div>
           <p>
             <strong>Email:</strong> contato@barão.org.br
           </p>

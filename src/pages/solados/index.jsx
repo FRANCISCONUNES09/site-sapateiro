@@ -39,16 +39,47 @@ export default function Solados() {
         </button>
       </div>
 
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
-            src="Imagem do Barão.jpg"
+            src="https://images.tcdn.com.br/img/img_prod/583860/solado_sapatilha_pvc_15_1_20170810222026.jpg"
+            alt="Sapateiro"
+            className="w-[350px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[150px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Solado Sapatilha - PVC Bege  </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+        
+        <div className="card">
+          <img
+            src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljfm8a3glmhy7a"
             alt="Sapateiro"
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Sola de borracha  </h2>
             <p className="text-[16px] text-[#8a898c]">
+              Sola De Borracha Solado Para Calçados Sola Montagem Sapatos Sapatilhas.
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
+         <div className="card">
+          <img
+            src="images.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[130px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Sandália  </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Nós consertamos seu solado completo ou meia sola
               Conserto de calçados com qualidade e tradição.
             </p>
           </div>
@@ -61,14 +92,14 @@ export default function Solados() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
           <img
             src="Imagem do Barão.jpg"
@@ -76,7 +107,7 @@ export default function Solados() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -90,36 +121,7 @@ export default function Solados() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-full flex items-center justify-center mt-10">
-         <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
-            <p className="text-[16px] text-[#8a898c]">
-              Conserto de calçados com qualidade e tradição.
-            </p>
-          </div>
-        </div>
-        
-        <div className="card">
-          <img
-            src="Imagem do Barão.jpg"
-            alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
-          />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
