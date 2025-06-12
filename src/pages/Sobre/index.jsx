@@ -29,21 +29,7 @@ export default function Sobre() {
           criado com o objetivo de oferecer serviços de alta qualidade e confiança para nossos clientes e atendemos em domicílio.
         </p>
 
-        <div className="space-y-4 text-gray-800">
-          <p>
-            <strong>Telefone:</strong> (85) 91234-5678
-          </p>
-          <p>
-            <strong>Email:</strong> contato@barão.org.br
-          </p>
-          <p>
-            <strong>Horário de Funcionamento:</strong> Segunda a Sábado, das 9h às 20h
-          </p>
-          <p>
-            <strong>Endereço:</strong>  Shopping Center Um, Avenida Santos
-            Dumont, 3130, Barão loja 15 - Aldeota, Fortaleza - CE
-          </p>
-        </div>
+        
 
         <div className="mt-8">
           <button

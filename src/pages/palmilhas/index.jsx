@@ -61,7 +61,7 @@ export default function Palmilhas() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Palmilha <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Palmilha  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Nós vedemos a sua palmilha com qualidade e conforto,
               tanto para masculino quanto feminino. Tem couro e normal.
@@ -77,7 +77,7 @@ export default function Palmilhas() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -91,7 +91,7 @@ export default function Palmilhas() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -106,7 +106,7 @@ export default function Palmilhas() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
@@ -120,7 +120,7 @@ export default function Palmilhas() {
             className="w-[300px] h-[300px] object-cover"
           />
           <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato <span className="text-red-500">R$ 20,00</span> </h2>
+            <h2 className="text-[24px] font-bold">Barão do Sapato </h2>
             <p className="text-[16px] text-[#8a898c]">
               Conserto de calçados com qualidade e tradição.
             </p>
