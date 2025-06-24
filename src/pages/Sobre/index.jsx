@@ -4,10 +4,7 @@ import { useRouter } from "next/router";
 
 export default function Sobre() {
   const router = useRouter();
-  
-
  
-
   return (
     <PageWrapper>
       <div className="min-h-screen bg-white flex flex-col md:flex-row">
@@ -19,8 +16,6 @@ export default function Sobre() {
           Foi fundado no dia 12 de janeiro de 1975, já são mais de 50 anos no mercado de conserto de calçados. Foi
           criado com o objetivo de oferecer serviços de alta qualidade e confiança para nossos clientes e atendemos em domicílio.
         </p>
-
-        
 
         <div className="mt-8">
           <button
