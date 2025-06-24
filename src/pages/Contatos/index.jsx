@@ -1,23 +1,10 @@
 import PageWrapper from "@/components/pageWrapper";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contatos() {
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const isLoggedIn = localStorage.getItem("auth") === "true";
-    if (!isLoggedIn) {
-      router.push("/login");
-    } else {
-      setLoading(false);
-    }
-  }, [router]);
-
-  if (loading) return null;
-
+  
   return (
     <PageWrapper>
       <div className="min-h-screen bg-white flex flex-col md:flex-row">
