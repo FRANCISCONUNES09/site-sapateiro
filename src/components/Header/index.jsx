@@ -1,7 +1,7 @@
 import { GiRunningShoe } from "react-icons/gi";
 
 
-export default function Header({showButton = false}){
+export default function Header(){
     return (
         <header className="w-full h-[50px] flex bg-[red] justify-between pr-2 items-center">
             <div
