@@ -107,7 +107,7 @@ export default function Inicio() {
             alt="Sapateiro"
             className="w-[300px] h-[300px] object-cover"
           />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
+          <div className="card-content w-[326px] h-[150px] p-[16px]">
             <h2 className="text-[24px] font-bold">Palmilha  </h2>
             <p className="text-[16px] text-[#8a898c]">
               Nós vedemos a sua palmilha com qualidade e conforto,
