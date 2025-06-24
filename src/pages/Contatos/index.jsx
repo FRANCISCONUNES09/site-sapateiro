@@ -14,8 +14,7 @@ export default function Contatos() {
         </h1>
         <p className="text-gray-700 mb-6">
           Estamos localizados no Shopping Center Um dentro do estacionamento, lado do Del Passeo, da Aldeota,
-          Fortaleza. Se você tiver dúvidas, sugestões ou quiser fazer parte do
-          nosso projeto, entre em contato pelos canais abaixo:
+          Fortaleza. Se você tiver dúvidas, entre em contato pelos canais abaixo:
         </p>
 
         <div className="space-y-4 text-gray-800">
@@ -23,9 +22,6 @@ export default function Contatos() {
             <strong>Telefone:</strong>  (85) 3082-5305 / 
              <FaWhatsapp className="bg-green-500 justify-center" /> (85) 98741-5034
           </div>
-          <p>
-            <strong>Email:</strong> contato@barão.org.br
-          </p>
           <p>
             <strong>Horário de Funcionamento:</strong> Segunda a Sábado, das 9h às 20h
           </p>
