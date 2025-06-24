@@ -9,7 +9,7 @@ export default function Sobre() {
   useEffect(() => {
     const isLoggedIn = localStorage.getItem("auth") === "true";
     if (!isLoggedIn) {
-      router.push("/login");
+      router.push("/Sobre");
     } else {
       setLoading(false);
     }
