@@ -1,21 +1,12 @@
 import PageWrapper from "@/components/pageWrapper";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+
 
 export default function Sobre() {
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
+  
 
-  useEffect(() => {
-    const isLoggedIn = localStorage.getItem("auth") === "true";
-    if (!isLoggedIn) {
-      router.push("/Sobre");
-    } else {
-      setLoading(false);
-    }
-  }, [router]);
-
-  if (loading) return null;
+ 
 
   return (
     <PageWrapper>
