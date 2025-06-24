@@ -5,39 +5,9 @@ export default function Inicio() {
     <PageWrapper>
       <div className="w-full flex flex-col items-center justify-center pt-7">
         <h1 className="text-[40px] text-[red] font-bold">Barão</h1>
-        <p className="text-[20px] text-[#8a898c]">Conheça mais sobre nossos serviços!</p>
+        <p className="text-[20px] text-[#8a898c]">Consertos de calçados.</p>
       </div>
-      <div className="filters flex justify-center gap-[16px] wrap mt-[20px]">
-        <button 
-          onClick={() => window.location.href = '/solados'}
-          className="bg-red-500 border-[2px] border-[red] 
-          text-white hover:bg-black cursor-pointer">
-            Solados
-        </button>
-        <button 
-        onClick={() => window.location.href = '/saltos'}
-          className="bg-red-500 border-[2px] border-[red] 
-          text-white hover:bg-black cursor-pointer">
-            Saltos
-        </button>
-        <button 
-          onClick={() => window.location.href = '/pinturas'}
-          className="bg-red-500 border-[2px] border-[red] 
-          text-white hover:bg-black cursor-pointer">
-            Pinturas
-        </button>
-        <button 
-          onClick={() => window.location.href = '/palmilhas'}
-          className="bg-red-500 border-[2px] border-[red] 
-          text-white hover:bg-black cursor-pointer">
-            Palmilhas
-        </button>
-        <button 
-          onClick={() => window.location.href = '/virola'}
-          className="bg-red-500 border-[2px] border-[red] text-white hover:bg-black cursor-pointer">
-            Virola
-        </button>
-      </div>
+      
 
       <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
          <div className="card">
@@ -209,13 +179,14 @@ export default function Inicio() {
         
         <div className="card">
           <img
-            src="Imagem do Barão.jpg"
+            src="https://i.ytimg.com/vi/KXBusyrf998/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB9w8kPd15h7c_sI6dTQQi1nxD4mA"
             alt="Sapateiro"
-            className="w-[300px] h-[300px] object-cover"
+            className="w-[400px] h-[300px] object-cover"
           />
-          <div className="card-content w-[326px] h-[105px] p-[16px]">
-            <h2 className="text-[24px] font-bold">Barão do Sapato  </h2>
+          <div className="card-content w-[326px] h-[150px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Tenis  </h2>
             <p className="text-[16px] text-[#8a898c]">
+              Nós consturamos seu tênis, passamos a cola primeiro e depois costuramos
               Conserto de calçados com qualidade e tradição.
             </p>
           </div>
