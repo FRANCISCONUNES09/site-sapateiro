@@ -29,7 +29,7 @@ export default function Sobre() {
 
       <div className="w-full md:w-1/2 h-96 md:h-auto p-[16px]">
         <img
-          src="Imagem do Barão.jpg"
+          src="Imagem do barão de 2025-06-24 à(s) 22.23.10_63b4c754.jpg"
           width="100%"
           height="100%"
           style={{ border: 0 }}
