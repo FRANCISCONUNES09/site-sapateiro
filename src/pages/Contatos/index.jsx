@@ -18,9 +18,9 @@ export default function Contatos() {
         </p>
 
         <div className="space-y-4 text-gray-800">
-          <div className="flex items-center gap-2">
-            <strong>Telefone:</strong>  (85) 3082-5305 / 
-             <FaWhatsapp className="bg-green-500 justify-center" /> (85) 98741-5034
+          <div className="flex flex-col  gap-2">
+            <strong>Telefone:</strong>  (85) 3082-5305
+             <FaWhatsapp className="bg-green-500" /> (85) 98741-5034
           </div>
           <p>
             <strong>Horário de Funcionamento:</strong> Segunda a Sábado, das 9h às 20h
