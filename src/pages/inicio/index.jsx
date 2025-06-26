@@ -192,6 +192,37 @@ export default function Inicio() {
           </div>
         </div>
       </div>
+      <div className="w-full flex flex-col md:flex-row items-center justify-center mt-10">
+         <div className="card">
+          <img
+            src="Imagem do Barão de 2025-06-25 à(s) 21.00.02_30880094.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[135px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Graxa  </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Nós vedemos Graxa Amy tanto o pequeno quanto o grande, as cores são: preto, marrom, 
+              azul marinho e natural.
+            </p>
+          </div>
+        </div>
+        
+        <div className="card">
+          <img
+            src="Imagem de Graxa de 2025-06-25 à(s) 21.00.02_5c7cec5a.jpg"
+            alt="Sapateiro"
+            className="w-[300px] h-[300px] object-cover"
+          />
+          <div className="card-content w-[326px] h-[130px] p-[16px]">
+            <h2 className="text-[24px] font-bold">Graxa </h2>
+            <p className="text-[16px] text-[#8a898c]">
+              Nós vedemos Graxa para calçados,
+              Conserto de calçados com qualidade e tradição.
+            </p>
+          </div>
+        </div>
+      </div>
     </PageWrapper>
   )
 }
